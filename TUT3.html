@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<body>
+    <h1>This is form tutorial</h1>
+    <form action="backend.php"> <!--Submit the data of form in backend.php-->
+       Name : <input type="text"><br><br>
+       F/Name : <input type="text"><br><br>
+       Registration no : <input type="text"><br><br>
+       Faculty : <input type="text"><br><br>
+
+
+       <!--Instead of this we can make the divisions as well.-->
+       <div>
+           Gender: Male <input type="radio" name="ihdufd" >Female <input type="radio" name="vdjisfu" >
+       </div>
+       <br>
+
+       <div>
+        School name : <input type="text">
+       </div>
+       <br>
+
+       <div>
+        email : <input type="email" name="myemail">
+       </div>
+       <br>
+       <br>
+       <div>
+        Date <input type="date" name="mydate">
+       </div>
+       <br>
+       <div>
+        Priority <input type="number" name="mynumber" ><br>
+        <label for Car="CAR">CAR</label>
+        <select>
+            <option>VITZ</option>
+            <option>Swift</option>
+            <option>mercedes</option>
+        </select>
+       </div>
+       <br>
+       <br>
+       Are you eligible for application <input type="checkbox" name="myeligibity">
+       <br>
+       <div>
+           Wrtie about yourself<br>
+           <textarea name="Mytext" cols="20" rows="20"></textarea>
+       </div>
+
+       <div>
+        <input type="Submit" value="Submit now">
+        <input type="reset" name="resetall">
+           
+       </div>
+
+    </form> 
+    
+</body>
+</html>
